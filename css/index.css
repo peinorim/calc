@@ -1,0 +1,40 @@
+/* 
+    Document   : index
+    Created on : 23 mai 2013, 22:02:34
+    Author     : Arnaud
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root { 
+    display: block;
+}
+#afficheur {
+    height: 50px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:white;
+}
+#back{
+    background-image:url('../img/delete_back.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center; 
+}
+.btn-success, .btn-warning, .btn-danger, .btn-info{
+    width:20%;
+}
+.btn-primary, .btn-inverse {
+    width:30%;
+    font-size: 14px;
+    font-weight: bold;
+}
+#inv, #signe, .angles{
+    width:auto;
+}
+#signe{
+    color:black;
+    font-weight: bold;
+}
+.numeric, .operateur, .math, .const {   
+}
